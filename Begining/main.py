@@ -3,5 +3,8 @@
 
 days = 24
 calculation_to_units = "hours"
-
 #print (f"hello {days} {calculation_to_units}")
+def myfunction():
+    print ("hello this is from the function")
+    print ("my new line")
+myfunction()
