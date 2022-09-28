@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.cursorStyle": "underline",
+    "editor.wordWrap": "on",
+    "editor.inlayHints.fontFamily": "",
+    "editor.fontFamily": "Cascadia Code",
+    "workbench.colorTheme": "Shades of Purple",
+    "workbench.iconTheme": "material-icon-theme"
+}
