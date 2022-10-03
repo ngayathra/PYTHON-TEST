@@ -21,7 +21,20 @@ new_list = ""
 # for i in range(len(my_list)):
 #     print (my_list[i])
 
-x = 0
-while x < len(my_list):
-    print (my_list[x])
-    x = x + 1
+# x = 0
+# while x < len(my_list):
+#     print (my_list[x])
+#     x = x + 1
+
+newlist = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+anotherlist = []
+
+for x in newlist:
+    if "a" in x:
+        anotherlist.append(x)
+# print (anotherlist)
+x = 1
+while x < 31:
+    print (f"{x}/09")
+    x = x +1
