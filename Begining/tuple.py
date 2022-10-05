@@ -26,3 +26,17 @@ else:
 tuplelist = list(second_tuple)
 # print (type(tuplelist))
 # print (tuplelist)
+
+
+thistuple = ("apple", "banana", "cherry")
+
+# for i in thistuple:
+#     print (i)
+
+# for i in range(len(thistuple)):
+#     print(tuplelist[i])
+
+# i = 0
+# while i < len(thistuple):
+#     print(thistuple[i])
+#     i = i + 1
