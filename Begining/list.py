@@ -1,10 +1,31 @@
 my_list = ["jan", "feb", "march", "april"]
 second_list = ["rice", "nasi", "curry"]
+third_list = second_list.copy()
 
 my_list.append("dec")
 
+
+list3 = my_list + second_list
+print (list3)
+
+second_list.extend(my_list)
+print (second_list)
+
+for x in my_list:
+    third_list.append(x)
+
+third_list.reverse()
+print(third_list)
+
+
+third_list.clear()
+print(third_list)
+
+
+
+
 # print (my_list[4])
-new_list = ""
+# new_list = ""
 # for x in my_list:
     # print(x)
 # my_list.append("MAY")
@@ -42,8 +63,8 @@ anotherlist = []
 # newlist.sort(reverse=True)
 # print (newlist) 
 
-copylist = newlist.copy()
-print (copylist)
+# copylist = newlist.copy()
+# print (copylist)
 
-clist = list(newlist)
-print (clist)
+# clist = list(newlist)
+# print (clist)
