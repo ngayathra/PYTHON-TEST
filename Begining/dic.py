@@ -32,5 +32,47 @@ mydic = {
     # print (x, y)
 
 x = mydic.keys()
-print (x)
-print (type(x))
+# print (x)
+# print (type(x))
+
+newdict = {
+    "child1" : {
+        "name" : "gayathra",
+        "age" : "28"
+    },
+    "child2" : {
+        "name" : "gayathri",
+        "age" : "31"
+    },
+    "child2" : {
+        "name" : "newboy",
+        "age" : "25"
+    }
+}
+
+# 
+# print (newdict)
+
+color1 = {
+    "name" : "red",
+    "code" : "010101"
+}
+
+color2 = {
+    "name" : "blue",
+    "code" : "50502"
+}
+
+color3 = {
+    "name" : "green",
+    "code" : "808154"
+}
+
+color_collction ={
+    "c1" : color1,
+    "c2" : color2,
+    "c3" : color3
+}
+
+color_collction.update({"c1":color2})
+print (color_collction)
