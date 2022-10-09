@@ -73,6 +73,7 @@ color_collction ={
     "c2" : color2,
     "c3" : color3
 }
+color2.update({"name":"abnormal"})
 
 color_collction.update({"c1":color2})
 print (color_collction)
